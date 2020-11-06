@@ -46,6 +46,10 @@ body {
   letter-spacing: .1em;
 }
 
+.menu li a:hover {
+  color: #852dff;
+}
+
 .grid-section {
   grid-column: 2/4;
   width: 100%;
@@ -151,6 +155,10 @@ body {
   height: 10px;
   margin-right: 10px;
   background: #9c55ffa6;
+}
+
+.importancia-lista dt:hover::before {
+  background: #9c55ff4a;
 }
 
 .importancia-lista dd {
