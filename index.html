@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning JS</title>
+
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <nav>
-    <h1>Scroll suave</h1>
-    <a href="">Parte 1</a>
-    <a href="">Parte 2</a>
-    <a href="">Parte 3</a>
-    <a href="">Parte 4</a>
-    <a href="">Parte 5</a>
-  </nav>
-  <section>
-    <h1>5 linguagens que terão ascensão em 2021</h1>
+  <nav class="menu">
     <ul>
+      <li><a href="#linguagens">Linguagens</a></li>
+      <li><a href="#importancia">Importância</a></li>
+      <li><a href="#creditos">Créditos</a></li>
+    </ul>  
+  </nav>
+
+  <section class="grid-section linguagens" id="linguagens">
+    <h1 class="titulo">5 linguagens em ascensão em 2021</h1>
+    <ul class="linguagens-lista">
       <li>
         <img src="/img/c++.jpg" alt="C++">
       </li>
@@ -33,7 +35,7 @@
         <img src="/img/typescript.png" alt="">
       </li>
     </ul>
-    <div>
+    <div class="linguagens-descricao">
       <section>
         <h2>C++</h2>
         <p>C++ existe desde meados dos anos 1980, mas é tão importante hoje devido ao papel que desempenha em muitas tecnologias emergentes. </p>
@@ -61,9 +63,10 @@
       </section>
     </div>
   </section>
-  <section>
-    <h1>Por que é importante saber disso?</h1>
-    <dl>
+  
+  <section class="grid-section importancia" id="importancia">
+    <h1 class="titulo">Por que é importante saber disso?</h1>
+    <dl class="importancia-lista">
       <dt>Atualização</dt>
       <dd>Saber quais delas estão ganhando popularidade e pode garantir um melhor crescimento na carreira ajudará você a priorizar o aprendizado</dd>
       <dt>Sede de aprender</dt>
@@ -72,7 +75,12 @@
       <dd>Use as informações compartilhadas nesta postagem para tomar uma decisão informada sobre o assunto e aproveitar o mercado ao máximo em 2021.</dd>
     </dl>
   </section>
-  <footer>
+
+  <footer class="copy" id="creditos">
+    <div class="fonte">
+      <p>Fonte:</p>
+      <a target="_blank" href="https://www.sosdigital.com.br/5-linguagens-de-programacao-que-terao-ascensao-em-2021/">SOS DIGITAL</a>
+    </div>
     <p>Todos os direitos reservados</p>
   </footer>
 </body>
